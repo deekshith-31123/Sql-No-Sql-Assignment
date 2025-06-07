@@ -1,0 +1,13 @@
+db.students.insertOne({
+    name: "John Doe",
+    email: "john@example.com",
+    phone: "9876543210",
+    dob: new Date("2000-05-15"),
+    address: {
+      street: "123 Main St",
+      city: "Hyderabad",
+      state: "TS",
+      zip: "500001"
+    }
+  });
+  
