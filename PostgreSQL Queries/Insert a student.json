@@ -1,0 +1,2 @@
+INSERT INTO student (name, email, phone)
+VALUES ('David', 'david@example.com', '9999990004');

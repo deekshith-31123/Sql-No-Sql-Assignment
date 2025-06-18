@@ -1,0 +1,2 @@
+INSERT INTO address (student_id, street, city, state)
+VALUES (4, '321 Hill Rd', 'Mumbai', 'Maharashtra');

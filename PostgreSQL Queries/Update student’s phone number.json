@@ -1,0 +1,1 @@
+UPDATE student SET phone = '8888881234' WHERE id = 1;
