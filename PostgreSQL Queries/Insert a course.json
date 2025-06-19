@@ -1,0 +1,2 @@
+INSERT INTO course (name, description)
+VALUES ('Computer Science', 'Intro to Programming and Data');
