@@ -1,0 +1,4 @@
+SELECT student_id
+FROM enrollment
+GROUP BY student_id
+HAVING COUNT(course_id) > 3;
