@@ -1,0 +1,4 @@
+SELECT s.id, s.name, SUM(m.score) AS total_score
+FROM student s
+JOIN marks m ON s.id = m.student_id
+GROUP BY s.id, s.name;

@@ -1,0 +1,4 @@
+SELECT s.id, s.name, COUNT(e.course_id) AS total_courses
+FROM student s
+JOIN enrollment e ON s.id = e.student_id
+GROUP BY s.id, s.name;

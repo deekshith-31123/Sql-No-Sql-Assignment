@@ -1,0 +1,6 @@
+SELECT s.name, m.score
+FROM marks m
+JOIN student s ON s.id = m.student_id
+WHERE m.course_id = 1
+ORDER BY m.score DESC
+LIMIT 3;
